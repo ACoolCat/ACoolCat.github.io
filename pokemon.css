@@ -84,6 +84,21 @@ button {
   background-size: contain;
 }
 
+#snivy {
+  background-image: url("IMG/snivy.png");
+  background-size: contain;
+}
+
+#oshawott {
+  background-image: url("IMG/oshawott.png");
+  background-size: contain;
+}
+
+#tepig {
+  background-image: url("IMG/tepig.png");
+  background-size: contain;
+}
+
 .slider {
   background-image: url("iMG/left.png");
   background-size: contain;
@@ -215,6 +230,18 @@ button:hover{
   }
 
   #chimchar {
+    background-size: auto;
+  }
+
+  #snivy {
+    background-size: auto;
+  }
+
+  #oshawott {
+    background-size: auto;
+  }
+
+  #tepig {
     background-size: auto;
   }
 
