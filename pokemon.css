@@ -110,10 +110,20 @@ button {
   background-repeat: no-repeat;
 }
 
+.logo {
+  background-image: url("IMG/logo.png");
+  background-size: contain;
+  width: 5vh;
+  height: 5vh;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: 15vh;
+}
+
 .next {
   background-image: url("IMG/right.png");
   background-size: contain;
-  margin-left: 34vh;
+  margin-left: 14vh;
 }
 
 button:hover{
@@ -126,11 +136,14 @@ button:hover{
 }
 
 .pokeStats {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 13px;
   margin-top: 5vh;
   margin-left: 15vh;
   width: 45vh;
   height: 40vh;
   background-color: #51ae5f;
+  border: 2px solid grey;
   text-align: center;
 }
 
@@ -142,8 +155,12 @@ button:hover{
     margin-top: 2vh;
   }
 
+  .logo {
+    margin-left: 35vh;
+  }
+
   .next {
-    margin-left: 82vh;
+    margin-left: 41vh;
   }
 
   .next:hover{
@@ -178,7 +195,7 @@ button:hover{
 
   .info{
     margin-top: 40px;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   #pikachu {
