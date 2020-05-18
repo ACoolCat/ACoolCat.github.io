@@ -1,0 +1,220 @@
+
+
+body{
+  margin: 0px;
+  background-color: #dc0a2d;
+}
+
+button {
+  width: 45vh;
+  height: 45vh;
+  margin-left: 15vh;
+}
+
+.pokeButtons button{
+  display: none;
+}
+
+.pokeButtons button:first-of-type{
+  display: block;
+}
+
+#pikachu {
+  background-image: url("IMG/pikachu.png");
+  background-size: contain;
+}
+
+#bulbasaur {
+  background-image: url("IMG/bulbasaur.png");
+  background-size: contain;
+}
+
+#charmander {
+  background-image: url("IMG/charmander.png");
+  background-size: contain;
+}
+
+#squirtle {
+  background-image: url("IMG/squirtle.png");
+  background-size: contain;
+}
+
+#chikorita {
+  background-image: url("IMG/chikorita.png");
+  background-size: contain;
+}
+
+#cyndaquil {
+  background-image: url("IMG/cyndaquil.png");
+  background-size: contain;
+}
+
+#totodile {
+  background-image: url("IMG/totodile.png");
+  background-size: contain;
+}
+
+#treecko {
+  background-image: url("IMG/treecko.png");
+  background-size: contain;
+}
+
+#torchic {
+  background-image: url("IMG/torchic.png");
+  background-size: contain;
+}
+
+#mudkip {
+  background-image: url("IMG/mudkip.png");
+  background-size: contain;
+}
+
+#piplup {
+  background-image: url("IMG/piplup.png");
+  background-size: contain;
+}
+
+#turtwig {
+  background-image: url("IMG/turtwig.png");
+  background-size: contain;
+}
+
+#chimchar {
+  background-image: url("IMG/chimchar.png");
+  background-size: contain;
+}
+
+.slider {
+  background-color: #00312b;
+  display: inline-block;
+  margin-top: 1vh;
+  margin-left: 15vh;
+  width: 5vh;
+  height: 5vh;
+}
+
+.next {
+  margin-left: 34vh;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: #51ae5f
+}
+
+.slider:hover{
+  cursor: pointer;
+  background-color: #232323;
+}
+
+.pokeStats {
+  margin-top: 5vh;
+  margin-left: 15vh;
+  width: 45vh;
+  height: 40vh;
+  background-color: #51ae5f;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .slider {
+    width: 60px;
+    height: 40px;
+    margin-left: 35vh;
+    margin-top: 2vh;
+  }
+
+  .next {
+    margin-left: 74vh;
+  }
+
+  .next:hover{
+    cursor: pointer;
+    background-color: #232323;
+  }
+
+  .pokeButtons{
+    align-content: center;
+    margin-top: 10vh;
+    margin-left: 35vh;
+    margin-right: 20vh;
+    border: 70px solid #dedede;
+  }
+
+  button {
+    width: 500px;
+    height: 500px;
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+
+  .pokeStats{
+    margin-top: 30vh;
+    margin-left: 40vh;
+    width: 80vh;
+    height: 90vh;
+  }
+
+  .name {
+    font-size: 60px;
+  }
+
+  .info{
+    margin-top: 40px;
+    font-size: 30px;
+  }
+
+  #pikachu {
+    background-size: auto;
+  }
+
+  #bulbasaur {
+    background-size: auto;
+  }
+
+  #charmander {
+    background-size: auto;
+  }
+
+  #squirtle {
+    background-size: auto;
+  }
+
+  #chikorita {
+    background-size: auto;
+  }
+
+  #cyndaquil {
+    background-size: auto;
+  }
+
+  #totodile {
+    background-size: auto;
+  }
+
+  #treecko {
+    background-size: auto;
+  }
+
+  #torchic {
+    background-size: auto;
+  }
+
+  #mudkip {
+    background-size: auto;
+  }
+
+  #piplup {
+    background-size: auto;
+  }
+
+  #turtwig {
+    background-size: auto;
+  }
+
+  #chimchar {
+    background-size: auto;
+  }
+
+
+}
