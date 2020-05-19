@@ -100,7 +100,7 @@ button {
 }
 
 .slider {
-  background-image: url("iMG/left.png");
+  background-image: url("IMG/left.png");
   background-size: contain;
   display: inline-block;
   margin-top: 1vh;
