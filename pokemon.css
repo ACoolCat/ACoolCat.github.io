@@ -99,6 +99,21 @@ button {
   background-size: contain;
 }
 
+#chespin {
+  background-image: url("IMG/chespin.png");
+  background-size: contain;
+}
+
+#fennekin {
+  background-image: url("IMG/fennekin.png");
+  background-size: contain;
+}
+
+#froakie {
+  background-image: url("IMG/froakie.png");
+  background-size: contain;
+}
+
 .slider {
   background-image: url("IMG/left.png");
   background-size: contain;
@@ -261,6 +276,20 @@ button:hover{
   #tepig {
     background-size: auto;
   }
+
+  #chespin {
+    background-size: auto;
+  }
+
+  #fennekin {
+    background-size: auto;
+  }
+
+  #froakie {
+    background-size: auto;
+  }
+
+
 
 
 }
